@@ -1,0 +1,93 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Assets</title>
+<style type="text/css">
+  html { height:100%; background-color:#DFDFDE }
+  body { height:100%; margin: 0; padding: 0; background-color:#DFDFDE; }
+</style>
+
+		<script type="text/javascript" src="./MobileDemo/jquery/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">
+		    var chart;
+
+		    function sendMessage(msg) {
+		        device_os = '<!$MG_device_os>';
+		        switch (device_os) {
+		            case 'iOS':
+		                window.location.href = 'MGExternalEvent:' + msg;
+		                break;
+		            case 'android':
+		                window.external.MGExternalEvent(msg);
+		                break;
+		            case 'blackberry':
+		                MGExternalEvent(msg)
+		                break;
+		            default:
+		                window.external.MGExternalEvent(msg);
+		        }
+		    }
+
+		    function notifyLoaded() {
+		        sendMessage('OK');
+		    }
+
+		    $(function () {
+		        $(document).ready(function () {
+		            chart = new Highcharts.Chart({
+		                chart: {
+		                    renderTo: 'container',
+		                    backgroundColor: '#DFDFDE',
+                            plotBackgroundColor: '#DFDFDE',
+		                    plotBorderWidth: 0,
+		                    plotShadow: false
+		                },
+		                credits: {
+		                    enabled: false
+		                },
+		                title: {
+		                    text: '<!$MG_title>'
+		                },
+		                tooltip: {
+		                    formatter: function () {
+		                        return '<b>' + this.point.name + '</b>: ' + this.percentage.toFixed(2) + ' %';
+		                    }
+		                },
+		                plotOptions: {
+		                    pie: {
+		                        allowPointSelect: true,
+		                        cursor: 'pointer',
+		                        dataLabels: {
+		                            enabled: true,
+		                            color: '#000000',
+		                            connectorColor: '#000000',
+                                    distance: 5,
+		                            formatter: function () {
+		                                return '<b>' + this.point.name + '</b><br/>' + this.percentage.toFixed(2) + '%';
+		                            }
+		                        }
+		                    }
+		                },
+		                series: [{
+		                    type: 'pie',
+		                    name: 'Assets',
+							size: '65%',
+		                    data: <!$MG_data>
+		                }]
+		            });
+		        });
+
+		    });
+
+$().ready(function(){
+    document.ontouchmove = function(e){ e.preventDefault(); }
+});
+
+</script>
+</head>
+<body>
+<script src="./MobileDemo/highcharts/js/highcharts.js"></script>
+<div id="container" style="min-width: 50px; height:100%; margin: 0 auto;"></div>
+</body>
+</html>

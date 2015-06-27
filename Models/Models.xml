@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12050.00"/>
+    <APPLICATION val="N"/>
+    <WithIsn val="N"/>
+    <WITH_MODELS val="N"/>
+    <MAIN_PRG_VARS val="12"/>
+    <MAIN_PRG_DSPS val="1"/>
+    <ConfirmCancel END="16" START="1"/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object name="Device_param">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object name="Yes/No">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_LOGICAL" id="1"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object name="Code">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="U3"/>
+          <Size id="174" val="6"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object name="Button">
+        <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+          <Placement id="20" right="100"/>
+          <Font id="50" val="20"/>
+          <Color id="51" val="49"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Travel" name="Form - 2nd design">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Width id="23" val="3750"/>
+          <Height id="24" val="2150"/>
+          <VerticalFactor id="34" val="100"/>
+          <HorizontalFactor id="35" val="100"/>
+          <ShowGrid id="37"/>
+          <GridX id="38" val="14"/>
+          <GridY id="39" val="6"/>
+          <Wallpaper id="42" val="images\Travel\pinstripes.png"/>
+          <Font id="50" val="2"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <PersistentFormState id="493"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Travel" name="Form - 1st design">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Width id="23" val="3750"/>
+          <Height id="24" val="2150"/>
+          <VerticalFactor id="34" val="100"/>
+          <HorizontalFactor id="35" val="100"/>
+          <ShowGrid id="37"/>
+          <GridX id="38" val="1"/>
+          <GridY id="39" val="1"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Travel" name="Form - Information">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Width id="23" val="3750"/>
+          <Height id="24" val="2150"/>
+          <VerticalFactor id="34" val="100"/>
+          <HorizontalFactor id="35" val="100"/>
+          <ShowGrid id="37"/>
+          <GridX id="38" val="17"/>
+          <GridY id="39" val="8"/>
+          <Wallpaper id="42" val="Images\background.jpg"/>
+          <Font id="50" val="11"/>
+          <Color id="51" val="49"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <WallpaperStyle id="448" val="5"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Travel" name="Form - Dialog">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Width id="23" val="3750"/>
+          <Height id="24" val="1000"/>
+          <VerticalFactor id="34" val="100"/>
+          <HorizontalFactor id="35" val="100"/>
+          <ShowGrid id="37"/>
+          <GridX id="38" val="1"/>
+          <GridY id="39" val="1"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" name="Button">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+          <PartOfDataview id="449"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON"/>
+          </RichClient>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" name="TableForm - 3rd design">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Font id="50" val="11"/>
+          <BorderStyle id="64" val="1"/>
+          <_Comment id="218"/>
+          <StartupPosition id="275" val="3"/>
+          <FormName id="311"/>
+          <GradientColor id="480" val="6"/>
+          <GradientStyle id="481" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" name="Table">
+        <PropertyList model="CTRL_RICH_CLIENT_TABLE">
+          <ScrollBar id="77"/>
+          <LineDivider id="78"/>
+          <RowHighlightStyle id="409" val="4"/>
+          <RowHighlightColor id="410" val="23"/>
+          <SetTableColorBy id="428" val="2"/>
+          <AlternatingBgColor id="429" val="3"/>
+          <Border id="452"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" name="CardForm - 3rd design">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Font id="50" val="11"/>
+          <BorderStyle id="64" val="1"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <GradientColor id="480" val="7"/>
+          <GradientStyle id="481" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" name="Field in table">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <Font id="50" val="12"/>
+          <Color id="51" val="11"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" name="Column title">
+        <PropertyList model="CTRL_RICH_CLIENT_COLUMN">
+          <Font id="50" val="5"/>
+          <Color id="51" val="3"/>
+          <_Sortable id="134" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" name="Label">
+        <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+          <Font id="50" val="14"/>
+          <Color id="51" val="8"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" name="Edit in Screen">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <Font id="50" val="15"/>
+          <Color id="51" val="10"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>

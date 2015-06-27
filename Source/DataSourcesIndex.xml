@@ -1,0 +1,25 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="12050"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="51"/>
+
+  <LastIsnFolder val="5"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="friends" Resident="N" data_source="MyFriends SQLite" id="49" name="friends" offset="211" length="11959"/> 
+<DataObject PhysicalName="friend_photos" Resident="N" data_source="MyFriends SQLite" id="50" name="friend_photos" offset="12171" length="3529"/> 
+<DataObject PhysicalName="country" Resident="N" data_source="MyFriends SQLite" id="51" name="country" offset="15701" length="2396"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30453760118862552"/>  </Application>

@@ -1,0 +1,4 @@
+CREATE TABLE country(
+isocode NCHAR(3) PRIMARY KEY NOT NULL,
+country NCHAR(100) NOT NULL
+)

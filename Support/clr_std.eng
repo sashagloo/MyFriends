@@ -1,0 +1,51 @@
+Window's Default,00000000,00FFFFFF,0
+Control's Default,00000000,FFFFFFFA,4
+table row alternate,00FFFFC8,00F2E1D4,0
+row border,00FF8000,00FF8000,0
+table row,FFFFFFF7,00F6EAE0,2
+dialog background,00F6EAE0,00FFFFFF,0
+lables,00FF0000,00E3DFE0,1
+non-edit text on form,FFFFFFF7,FFFFFFF0,6
+transparent,00FFFFFF,00E3DFE0,1
+Dialog buttons background,00C0C0C0,00E4E4E4,0
+Dialog link background,FFFFFFF7,00E4E4E4,2
+Check Box,00FF0000,00E3DFE0,1
+second dialog background,00C6FFC6,00FFFFFF,0
+transparent background,FFFFFFF7,00E3DFE0,3
+white on transparent,00FFFFFF,00F0F0F0,1
+Grey on transparent,008F8F8F,00F0F0F0,1
+White on black,00FFFFFF,00000000,0
+Red,003422E1,00E3DFE0,1
+Orange,007DEBFD,00E3DFE0,1
+Green,0074992B,00E3DFE0,1
+Button Color,00DFBB80,00A00000,1
+Grey on white,008F8F8F,00FFFFFF,0
+light green,00000000,0080FF80,0
+system,FFFFFFF7,FFFFFFFA,6
+Black on White,00000000,FFFFFFFA,4
+Blue on White,00A00000,00FFFFFF,0
+Orange on White,000080FF,00FFFFFF,0
+Blue on Black,00FF0000,00000000,0
+Black on transparent,00000000,00C8D0D4,1
+White on transparent,00FEFEFE,00C8D0D4,1
+Blue on transparent,00FF0000,00C8D0D4,1
+Red on transparent,000000FF,00C8D0D4,1
+Green on transparent,00259500,00C8D0D4,1
+Black on Gray,00000000,00C7C7C7,0
+TableHighlight,00000000,00F5E13F,0
+White on Red,00FFFFFF,003422E1,0
+Black on Orange,00000000,007DEBFD,0
+White on Green,00FFFFFF,0074992B,0
+Group,008F8F8F,00DFDFDF,0
+Dark table,00BAB6B4,00DED8D5,0
+Table blue text,00854F32,00F0F0F0,1
+Lighter grey background,006C564C,00EAEAEA,0
+Lighest grey,FFFFFFF7,00F7F7F7,2
+lighter grey on transparent,00848484,00F0F0F0,1
+Green on Red,0000FF00,000000FF,0
+Grey on blue,00AAA7A0,00874600,0
+System on System,FFFFFFF7,FFFFFFFA,6
+White on blue,00FFFFFF,00FFC86D,0
+Light blue on system,00C0976B,FFFFFFF0,5
+Light blue on white,00C0976B,00FFFFFF,0
+Light blue on transparent,00C0976B,00FFFFFF,1

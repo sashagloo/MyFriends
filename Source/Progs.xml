@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12050"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="160"/>
+    <LastIsnFolder val="8"/>
+    <Folders/>
+  </Header>
+
+  <ProgramsRepositoryOutLine>
+    <Programs>
+      <Program id="1"/>
+      <Program id="154"/>
+      <Program id="155"/>
+      <Program id="156"/>
+      <Program id="158"/>
+      <Program id="160"/>
+    </Programs>
+  </ProgramsRepositoryOutLine>
+
+</Application>

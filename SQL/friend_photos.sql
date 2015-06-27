@@ -1,0 +1,1 @@
+CREATE TABLE "friend_photos" ("id"  INTEGER PRIMARY KEY AUTOINCREMENT,"friend_id" INTEGER,"photo"  NCHAR(256)NOT NULL,UNIQUE ("id" ASC, "friend_id" ASC))

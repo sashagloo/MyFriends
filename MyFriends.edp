@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="MyFriends"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{F713E041-D27D-4E83-9E64-0D1EBAA1DD9B}"/>
+    <Version min="12010"/>
+  </_Project>
+
+</Application>
